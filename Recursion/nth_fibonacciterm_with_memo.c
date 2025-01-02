@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-long long int F[51];  // Memoization array
+long long int F[100];  // Memoization array
 
 // Recursive Fibonacci with Memoization
 long long int Fib(int n) {
@@ -28,7 +28,7 @@ int main() {
     scanf("%d", &n);
 
     if (n < 0 || n > 100) {
-        printf("Please enter a number between 0 and 50.\n");
+        printf("Please enter a number between 0 and 100.\n");
         return 1;
     }
 

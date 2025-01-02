@@ -1,5 +1,5 @@
 #include<stdio.h>
-int TOH(char source, char destination, char temporary, int n)
+void TOH(char source, char destination, char temporary, int n)
 {
     if(n==1)
     {
