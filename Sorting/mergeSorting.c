@@ -43,6 +43,8 @@ void merge(int A[], int mid, int low, int high)
         k++;
         j++;
     }
+
+     // Copy sorted elements back into the original array
     for (int i = low; i <= high; i++)
     {
         A[i] = B[i];

@@ -36,7 +36,7 @@ int partition(int A[], int low, int high)
         }
     } while (i < j);
 
-    // Swap A[low] and A[j]
+    // Swap A[low] and A[j] i.e swaps pivot element and A[j]
     temp = A[low];
     A[low] = A[j];
     A[j] = temp;
